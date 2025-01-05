@@ -1,63 +1,64 @@
+# Data Extraction Project
 
-## 🌟 Project Highlights
+This repository contains scripts and notebooks for data extraction tasks, focusing on extracting data from Flipkart and processing large datasets with specific use cases.
 
-### 1. **Data Extraction List of URLs**
-   - Extract data efficiently from a variety of URLs.
-   - Leverage Generative AI to enhance accuracy and handle dynamic web content.
+## Directory Structure
 
-### 2. **Scraping Flipkart Data**
-   - Automatically scrape and structure product information from Flipkart.
-   - Utilize AI-driven techniques for seamless data parsing and analysis.
+```
+nivedivasu23-Data_extraction/
+├── README.md                        # Project documentation
+├── Data_extraction_ListofURL.ipynb  # Notebook for extracting data from a list of URLs
+├── scraping_flipkart_data.ipynb     # Notebook for scraping Flipkart data
+└── docs/
+    └── examples/
+        └── usecases/
+            └── 10k_sub_question.ipynb  # Example use case for processing 10k sub-questions
+```
 
-### 3. **10k Sub-Question Use Case**
-   - A practical example showcasing the capability of GenAI to manage and analyze large datasets.
-   - Dive into complex data scenarios with ease and confidence.
+## Contents
 
-## 🔍 Why Generative AI?
+### 1. `Data_extraction_ListofURL.ipynb`
+This notebook demonstrates:
+- Techniques for extracting data from a given list of URLs.
+- Handling and parsing HTML or JSON data.
 
-Generative AI models like GPT-4 and BERT bring unparalleled intelligence to data extraction:
-- **Adaptability**: Automatically adjust to changes in web structures.
-- **Efficiency**: Process vast amounts of data quickly and accurately.
-- **Intelligence**: Extract meaningful insights and structure data effortlessly.
+### 2. `scraping_flipkart_data.ipynb`
+This notebook includes:
+- Methods for scraping product data from Flipkart.
+- Data cleaning and organization techniques.
+- Examples of storing scraped data in a structured format (e.g., CSV, JSON).
 
-## 🚀 Getting Started
+### 3. `docs/examples/usecases/10k_sub_question.ipynb`
+This example use case showcases:
+- Handling and analyzing a dataset with 10,000 sub-questions.
+- Techniques for data organization, transformation, and analysis.
 
-### Prerequisites
+## Prerequisites
 
 Ensure you have the following installed:
-- Python 3.x
-- Jupyter Notebook
-- Required Python packages (install via `requirements.txt` if available)
+- Python 3.7+
+- Required libraries: BeautifulSoup, pandas, requests, and Jupyter Notebook
 
-### How to Run
+Install dependencies using:
+```bash
+pip install -r requirements.txt
+```
 
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/nivedivasu23/nivedivasu23-Data_extraction.git
-    ```
+## Usage
 
-2. Navigate to the project directory:
-    ```bash
-    cd nivedivasu23-Data_extraction
-    ```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/nivedivasu23-Data_extraction.git
+   cd nivedivasu23-Data_extraction
+   ```
+2. Open Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+3. Run the notebooks in the desired order for your use case.
 
-3. Open and run the Jupyter Notebooks to explore and execute the data extraction processes.
+## Contributing
 
-## 💡 Future Enhancements
-
-- **Enhanced NLP Capabilities**: Incorporate more advanced NLP models for deeper data understanding.
-- **Real-time Data Extraction**: Develop capabilities for real-time data scraping and analysis.
-- **Multi-source Data Fusion**: Combine data from diverse sources for richer insights.
-
-## 🤝 Contributing
-
-We welcome contributions! Whether it's fixing bugs, adding new features, or improving documentation, your help is invaluable.
-
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes and commit them.
-4. Submit a pull request.
-
-
+Contributions are welcome! If you have suggestions for improvement or additional use cases, feel free to submit a pull request or open an issue.
 
 
